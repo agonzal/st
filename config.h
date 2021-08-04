@@ -5,9 +5,9 @@
  *
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
  */
-static char *font = "Fira Code Bold :pixelsize=8:antialias=true:autohint=true";
-static char *font2[] = { "Fira Code Bold :pixelsize=8:antialias=true:autohint=true" };
-static int borderpx = 50; 
+static char *font = "Fira Code :style=bold:pixelsize=8:antialias=true:autohint=true";
+static char *font2[] = { "Fira Code :style=bold:pixelsize=8:antialias=true:autohint=true" };
+static int borderpx = 25; 
 
 /*
  * What program is execed by st depends of these precedence rules:
@@ -73,7 +73,7 @@ int ximspot_update_interval = 1000;
 /*
  * thickness of underline and bar cursors
  */
-static unsigned int cursorthickness = 1;
+static unsigned int cursorthickness = 2;
 
 /*
  * 1: render most of the lines/blocks characters without using the font for
@@ -165,8 +165,8 @@ static unsigned int cursorshape = 4;
  * Default columns and rows numbers
  */
 
-static unsigned int cols = 80;
-static unsigned int rows = 24;
+static unsigned int cols = 180;
+static unsigned int rows = 50;
 
 /*
  * Default colour and shape of the mouse cursor
